@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*Tamaño y Posicion de la Página en General*/
+html, body {
+  background-image: url(../image/fondo_manar.jpg);
+}
+/*Complementos CSS para la página Principal*/
+div.cabecera_prin {
+  background-color: white;
+  margin: 0 auto;
+}
+div.banner div {
+  float: left;
+  clear: none;
+}
+/* CSS Div unifica la barra del menú Principal con la Cabecera y demás Detalles */
+div.cabecera {
+  margin: 0 auto;
+}
+div.cabecera h1 {
+  text-align: center;
+}
+div.cabecera h3 {
+  text-align: center;
+}
+/*Posicion del logo de la Cabecera*/
+div#logo {
+  margin: 0 auto;
+  float: left;
+  clear: none;
+}
+div#logo img {
+  padding: 10;
+  width: 160px;
+  
+}
+/* CSS de la Barra del Menú Principal */
+div.menu_navigation ul {
+
+    list-style: none;
+
+}
+/*Configuracion del Pie de Página*/
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 3px;
+  background-image: url(../image/flor_aguacate.jpeg);
+}
+footer img {
+  width: 9%;
+  padding-left: 55px;
+  padding-bottom: 3px;
+}
+footer .titulo_footer{
+  text-align: center;
+  position: absolute;
+  top: -10;
+  left: 25%;
+  font-weight: bold;
+}
+footer .cuerpo_footer{
+  position: absolute;
+  text-align: left;
+  top: 10;
+  left: 25%;
+}
+/*Querys Responsives*/
+@media only screen and (max-width: 740px) {
+  /* For mobile phones: */
+  [class="cabecera_prin"] {
+    width: 100%;
+  }

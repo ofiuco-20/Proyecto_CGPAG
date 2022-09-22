@@ -1,0 +1,53 @@
+/*Configuración del cuadro de Inicio de Sesion*/
+div#contenedor_prin {
+flex-direction: column;
+align-items: center;
+display: table;
+width: 33%;
+height: 56%;
+margin-left: 33%;
+border-radius: 22px 22px 22px 22px;
+background-color: #FDFDFD;
+}
+/*Confoguración del Título*/
+div h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 55;
+  margin-right: 50;
+  margin-top: 15%;
+  color: #0d0d0d;
+  border-bottom: 2px solid #5fbae9;
+}
+/*Configuración de Input´s*/
+input[type=text], input[type=submit] {
+  background-color: #EAEDFF;
+  border: none;
+  border-bottom: 2px solid #5fbae9;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 10px 0px 0px 75px;
+  transition: all 0.4s ease-in-out;
+}
+/*Margen para Centrar el Botón*/
+input[type=submit] {
+  margin-left: 129px;
+}
+/*Configuración para Animaciones Caja de Texto*/
+input::placeholder {
+  color: black;
+}
+input[placeholder]:hover {
+  opacity: 70%;
+  background-color: #FFDA6E;
+}
+input[type=text]:focus {
+  background-color: #FFDA6E;
+}
+/*Configuración del Botón*/
+input[type=submit]:hover {
+  background-color: #FFDA6E;
+}
